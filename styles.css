@@ -1,0 +1,135 @@
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 2;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: cornflowerblue;
+}
+
+h1 {
+  margin-top: calc(50vh - 0.5em);
+  margin-bottom: calc(50vh - 0.5em);
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  position: fixed;
+  bottom: 0;
+  left: 1em;
+  color: white;
+}
+
+div.block {
+  width: 25vw;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: white;
+  color: black;
+}
+
+div.block.left {
+  margin-left: 25%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+div.block.right {
+  margin-right: 25%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+div.block.wide {
+  width: 50vw;
+}
+
+div.block div.block {
+  color: white;
+  background-color: black;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+div.block div.block .reveal {
+  visibility: hidden;
+}
+
+div.block div.block:hover .reveal {
+  visibility: visible;
+}
+
+img.map {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  border-radius: 16px;
+}
+
+img.selfie {
+  display: block;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  border-radius: 16px;
+}
+
+img.score {
+  display: block;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  border-radius: 16px;
+}
+
+img.globe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img.cloud {
+  position: fixed;
+  z-index: -1;
+  user-select: none;
+  pointer-events: none;
+  opacity: 0.25;
+}
+
+video {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+  border-style: solid;
+  border-radius: 16px;
+  border-weight: 4px;
+  border-color: white;
+}
+
